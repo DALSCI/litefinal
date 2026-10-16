@@ -90,13 +90,11 @@
       ]
     };
 
-    // Each center image uses the raw GitHub link for the image/ folder in the litefinal repository.
+    // Each center image uses a direct GitHub image link from the litefinal repository.
     function makeCenter(name, location, hours, contact, imageLink = "") {
       return { name, location, hours, contact, imageLink };
     }
 
-    // Information below is transcribed from the supplied notes.
-    // Items marked Not verified / Not provided need checking or completion.
     const healthCenters = {
       "Arkong Bato": [
         makeCenter("Arkong Bato Health Center", "1166 M.H. del Pilar St., Arkong Bato, Valenzuela, Metro Manila", "8:00 AM to 5:00 PM", "8352-1000", "https://raw.githubusercontent.com/DALSCI/litefinal/c9ccdc44b2ec8c44232631d95ef5268009494a97/image/arkong-bato-health-center.jpg"),
@@ -176,7 +174,7 @@
         makeCenter("Veinte Reales Health Center", "C. Molina St., Barangay Veinte Reales, Valenzuela City, Metro Manila", "Monday to Friday, 8:00 AM to 5:00 PM", "8352-1000 loc 1111", "https://raw.githubusercontent.com/DALSCI/litefinal/c9ccdc44b2ec8c44232631d95ef5268009494a97/image/veinte-reales-health-center.jpg")
       ],
       "Wawang Pulo": [
-        makeCenter("Wawang Pulo Health Station", "Wawang Pulo 3S Center, F. Alcanar St.", "Monday to Friday, 8:00 AM to 5:00 PM", "3445-0949", "https://raw.githubusercontent.com/DALSCI/litefinal/c9ccdc44b2ec8c44232631d95ef5268009494a97/image/wawang-pulo-health-station.jpg")
+        makeCenter("Wawang Pulo Health Station", "Wawang Pulo 3S Center, F. Alcanar St.", "Monday to Friday, 8:00 AM to 5:00 PM", "3445-0949", "")
       ],
       "Bagbaguin": [
         makeCenter("Bagbaguin Health Station", "3S Center Bagbaguin, A. Mariano, Valenzuela, 1422 Metro Manila", "Monday to Friday, 8:00 AM to 5:00 PM", "8985-9926", "https://raw.githubusercontent.com/DALSCI/litefinal/c9ccdc44b2ec8c44232631d95ef5268009494a97/image/bagbaguin-health-station.jpg")
